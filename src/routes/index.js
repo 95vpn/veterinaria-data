@@ -3,6 +3,6 @@ const petRouter = require('./pet.router');
 const router = express.Router();
 
 // colocar las rutas aquí
-router.use('/pet', petRouter)
+router.use('/pets', petRouter)
 
 module.exports = router;
